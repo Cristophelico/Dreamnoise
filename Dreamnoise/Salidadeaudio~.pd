@@ -1,0 +1,22 @@
+#N canvas 190 143 346 279 10;
+#X obj 30 120 dac~;
+#X obj 40 80 *~;
+#X obj 60 50 r amp;
+#X obj 120 130 hsl 128 15 0 1 0 0 amp amp0 Ajuste\ del\ audio -3 -12
+0 10 #0ddece #000000 #000000 9600 1;
+#X floatatom 260 130 5 0 0 0 - - -, f 5;
+#X obj 260 20 r amp;
+#X obj 260 50 * 1000;
+#X obj 40 20 r~ audio-out;
+#X obj 30 150 loadbang;
+#X obj 30 210 s amp;
+#X msg 30 180 0.09;
+#X connect 1 0 0 0;
+#X connect 1 0 0 1;
+#X connect 2 0 1 1;
+#X connect 5 0 6 0;
+#X connect 6 0 4 0;
+#X connect 7 0 1 0;
+#X connect 8 0 10 0;
+#X connect 10 0 9 0;
+#X coords 0 -1 1 1 185 49 2 115 109;

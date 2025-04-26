@@ -1,0 +1,5 @@
+#N canvas 268 165 814 300 12;
+#X obj 250 -60 spectrogram~;
+#X obj 140 50 r~ audio-out;
+#X connect 1 0 0 0;
+#X coords 0 -1 1 1 549 264 2 246 -64;

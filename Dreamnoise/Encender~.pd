@@ -1,0 +1,8 @@
+#N canvas 758 223 295 191 10;
+#X msg 30 60 \; pd dsp \$1;
+#X obj 30 10 r on-off;
+#X obj 220 110 tgl 18 0 on-off empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X text 110 110 Encerder audio;
+#X connect 1 0 0 0;
+#X coords 0 -1 1 1 147 40 2 100 100;

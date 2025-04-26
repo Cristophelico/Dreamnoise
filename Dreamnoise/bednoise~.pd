@@ -1,0 +1,28 @@
+#N canvas 42 65 1291 640 12;
+#X obj 20 10 cnv 15 1242 603 empty empty empty 20 12 0 14 #32acb6 #404040
+0;
+#X obj 70 20 Encender~;
+#X text 600 60 Instrucciones;
+#X text 600 80 1) Encienda el audio;
+#X text 600 100 2) Seleccione el filtro;
+#X text 600 120 3) Ajuste el audio;
+#X text 600 140 4) Elija la frecuencia de corte;
+#X text 600 160 5) En el caso de Filtro Pasa Banda utilice Q;
+#X text 600 180 6) Modifique los valores de pasos 3 y 4 hasta;
+#X text 620 200 encontrar la frecuencia deseada;
+#X text 620 260 Y dulces sueños...;
+#X obj 70 300 fluctuar~;
+#X obj 70 70 filtros~;
+#X obj 290 80 frecuencia~;
+#X obj 360 310 espectograma~;
+#X obj 290 20 Salidadeaudio~;
+#X obj 290 140 Q~;
+#X obj 290 210 camara~;
+#X text 600 220 7)Combine la fluctuación;
+#X text 600 240 8) Busque la reverberancia deseada;
+#X obj 930 60 preset~;
+#X obj 290 370 vu~;
+#X text 370 580 (CC BY) 2021 Cristophelico - 3'34'' Dreamnoise - quintadellobo@gmail.com
+, f 74;
+#X text 670 20 3' 34'' DREAMNOISE;
+#X coords 0 -1 1 1 1254 614 2 14 6;

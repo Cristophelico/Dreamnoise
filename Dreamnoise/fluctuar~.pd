@@ -1,0 +1,28 @@
+#N canvas 166 125 524 324 12;
+#X text 100 10 fluctuación;
+#X text 360 20 Fluctuación;
+#X floatatom 342 240 5 0 0 0 - factor1 -, f 5;
+#X floatatom 160 100 5 0 0 0 - - -, f 5;
+#X obj 100 100 osc~ 0;
+#X obj 100 180 +~ \$1;
+#X floatatom 170 180 5 0 0 0 - - -, f 5;
+#X obj 130 50 r factor1;
+#X obj 150 140 r factor2;
+#X obj 350 60 vradio 15 0 0 11 factor1 factor10 Factor\ 1 -11 -9 0
+10 #13f2e8 #000000 #000000 0;
+#X floatatom 432 240 5 0 0 0 - factor2 -, f 5;
+#X obj 440 60 vradio 15 0 0 11 factor2 factor20 Factor\ 2 -11 -9 0
+10 #13f2e8 #000000 #000000 0;
+#X obj 70 250 *~;
+#X obj 10 50 catch~ filtrado;
+#X obj 70 280 s~ audio;
+#X connect 4 0 5 0;
+#X connect 5 0 12 1;
+#X connect 7 0 3 0;
+#X connect 7 0 4 0;
+#X connect 8 0 5 1;
+#X connect 8 0 6 0;
+#X connect 12 0 14 0;
+#X connect 13 0 12 0;
+#X connect 13 0 12 1;
+#X coords 0 -1 1 1 201 290 2 299 9;

@@ -1,0 +1,2 @@
+#N canvas 32 65 1285 640 12;
+#X obj 20 10 bednoise~;

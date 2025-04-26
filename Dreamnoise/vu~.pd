@@ -1,0 +1,11 @@
+#N canvas 625 194 443 485 10;
+#X obj 32 110 cnv 15 39 142 empty empty empty 20 12 0 14 #e0e0e0 #404040
+0;
+#X obj 40 77 - 100;
+#X obj 40 50 env~ 8820;
+#X obj 40 120 vu 22 120 empty empty -1 -8 0 8 #000000 #fcfcfc 0 0;
+#X obj 40 10 r~ audio-out;
+#X connect 1 0 3 0;
+#X connect 2 0 1 0;
+#X connect 4 0 2 0;
+#X coords 0 -1 1 1 47 150 1 28 106;

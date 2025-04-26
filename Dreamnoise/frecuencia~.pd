@@ -1,0 +1,5 @@
+#N canvas 587 112 299 139 12;
+#X obj 50 50 hsl 128 21 20 20000 1 0 frecuencia frec0 Frecuencia\ de\ corte
+-2 -10 0 10 #31ccea #187fb6 #000000 0 1;
+#X floatatom 200 50 6 0 0 0 - frecuencia -, f 6;
+#X coords 0 -1 1 1 208 46 2 45 33;
